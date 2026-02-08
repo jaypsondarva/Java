@@ -1,0 +1,25 @@
+class BillGenerator {
+
+    void generateBill(int itemTotal) {
+        System.out.println("Final Bill Amount: " + itemTotal);
+    }
+
+    void generateBill(int itemTotal, int discount) {
+        int finalAmount = itemTotal - discount;
+        System.out.println("Final Bill Amount: " + finalAmount);
+    }
+
+    void generateBill(int itemTotal, double discountPercent) {
+        double discount = itemTotal * discountPercent / 100;
+        double finalAmount = itemTotal - discount;
+        System.out.println("Final Bill Amount: " + finalAmount);
+    }
+
+    public static void main(String[] args) {
+        BillGenerator bill = new BillGenerator();
+
+        bill.generateBill(5000);
+        bill.generateBill(5000, 500);
+        bill.generateBill(5000, 10.0);
+    }
+}
