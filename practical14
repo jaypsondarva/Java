@@ -1,0 +1,52 @@
+class BankAccount {
+    String accountId;
+    String accountHolderName;
+    double balance;
+
+    void assignValues(String id, String name, double bal) {
+        accountId = id;
+        accountHolderName = name;
+        balance = bal;
+    }
+
+    void displayValues() {
+        System.out.println("Account ID: " + accountId);
+        System.out.println("Account Holder: " + accountHolderName);
+        System.out.println("Balance: " + balance);
+        System.out.println();
+    }
+
+    static void searchAccount(BankAccount[] arr, String id) {
+        boolean found = false;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i].accountId.equals(id)) {
+                arr[i].displayValues();
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            System.out.println("Account not found");
+        }
+    }
+
+    public static void main(String[] args) {
+        BankAccount[] accounts = new BankAccount[5];
+
+        for (int i = 0; i < accounts.length; i++) {
+            accounts[i] = new BankAccount();
+        }
+
+        accounts[0].assignValues("A101", "Rahul", 5000);
+        accounts[1].assignValues("A102", "Priya", 7500);
+        accounts[2].assignValues("A103", "Amit", 6200);
+        accounts[3].assignValues("A104", "Neha", 8800);
+        accounts[4].assignValues("A105", "Karan", 9100);
+
+        for (int i = 0; i < accounts.length; i++) {
+            accounts[i].displayValues();
+        }
+
+        searchAccount(accounts, "A103");
+    }
+}
