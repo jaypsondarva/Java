@@ -27,4 +27,5 @@ System.out.println("university name = "+ universityname);
 University s1 = new University();
 System.out.println("In total students:"+ gettotalStudents());
 }
+
 }
