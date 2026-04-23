@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class LinearEquationSolver {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+         System.out.println("Name: Jaykumar Pravinbhai Sondarva");
+         System.out.println("Enrollment No : 240390107051 ");
         System.out.println("Solve system of linear equations:");
         System.out.println("ax + by = e");
         System.out.println("cx + dy = f");
