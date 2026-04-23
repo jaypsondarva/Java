@@ -17,7 +17,8 @@ class BillGenerator {
 
     public static void main(String[] args) {
         BillGenerator bill = new BillGenerator();
-
+        System.out.println("Name: Jay");
+        System.out.println("Enrollment: 240390107051");
         bill.generateBill(5000);
         bill.generateBill(5000, 500);
         bill.generateBill(5000, 10.0);
