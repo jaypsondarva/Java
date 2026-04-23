@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
-public class TriangleAreaCalculator {
+public class practical7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
+        System.out.println ("Name: Jay");
+        System.out.println ("Enrollment No:240390107051");
         System.out.println("Enter the lengths of three sides of a triangle:");
         System.out.print("Side a: ");
         double a = scanner.nextDouble();
