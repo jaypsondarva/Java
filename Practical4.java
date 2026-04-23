@@ -9,7 +9,7 @@ public class practical4 {
         Scanner scanner = new Scanner(System.in);
          System.out.println("Name: Jaykumar Pravinbhai Sondarva");
          System.out.println("Enrollment No: 240390107051");
-        System.out.println("=== BMI Calculator ===");
+     
         System.out.println();
         
         System.out.print("Enter your weight in pounds: ");
