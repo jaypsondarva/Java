@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Rectangle {
+public class practical9 {
 
 double width = 1,height = 1;
 	static double getArea (double width, double height){
