@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Employee {
+class practical10 {
 
 private String employeeName;
 private double employeeSalary;
@@ -8,6 +8,8 @@ private double employeeSalary;
 public void readEmployeeData () {
 Scanner sc = new Scanner(System.in);
 
+ System.out.println("Name: Jay");
+ System.out.println("Enrollment : 240390107051");
 System.out.println ("Enter employee name");
  employeeName = sc.nextLine();
 
