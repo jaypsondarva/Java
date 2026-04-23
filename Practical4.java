@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
-public class BMICalculator {
+public class practical4 {
 
     private static final double POUNDS_TO_KG = 0.45359237;
     private static final double INCHES_TO_METERS = 0.0254;
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+         System.out.println("Name: Jaykumar Pravinbhai Sondarva");
+         System.out.println("Enrollment No: 240390107051");
         System.out.println("=== BMI Calculator ===");
         System.out.println();
         
