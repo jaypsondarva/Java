@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
-public class ATMCashDispenser {
+public class practical5 {
     
     private static final int[] DENOMINATIONS = {100, 50, 10, 5, 2, 1};
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("=== ATM Cash Dispenser ===");
+
+         System.out.println("Name: Jaykumar Pravinbhai Sondarva");
+         System.out.println("Enrollment No : 240390107051");
         System.out.println();
         
         
