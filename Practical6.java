@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-public class DigitIncrementer {
+public class practical6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Enter a five-digit integer: ");
+          System.out.println("Name: Jay ");
+          System.out.println("Enrollment:240390107051 ");
+        System.out.println("Enter a five-digit integer: ");
         int number = scanner.nextInt();
         
         if (number < 10000 || number > 99999) {
