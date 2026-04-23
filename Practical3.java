@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class VowelOrConsonant {
+public class practical3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+         System.out.print("Name: Jaykumar Pravinbhai sondarva ");
+         System.out.print("Enrollment No:240390107051 ");
         System.out.print("Enter a single letter: ");
         String input = scanner.nextLine();
         
