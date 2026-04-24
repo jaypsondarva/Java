@@ -22,6 +22,8 @@ return totalStudents;
 }
 public static void main (String args[])
 {
+  System.out.println("Jay");
+  System.out.println("240390107051");
 System.out.println("Main method started.");
 System.out.println("university name = "+ universityname);
 University s1 = new University();
