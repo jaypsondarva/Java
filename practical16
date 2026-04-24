@@ -26,8 +26,9 @@ class LoanCalculator {
     }
 
     public static void main(String[] args) {
+        System.out.println("Jay");
+        System.out.println("240390107051");
         LoanCalculator loan = new LoanCalculator();
-
         loan.calculateEMI(500000, 20, 8.5f);
         loan.calculateEMI(300000, 5, 9.2);
         loan.calculateEMI(100000, 2);
